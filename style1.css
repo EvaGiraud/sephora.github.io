@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Mulish:wght@300&display=swap');
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: black;
+  padding: 20px;
+  color:white;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
+  background-color: black;
+  font-family: 'Mulish', sans-serif;;
+  color: black;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin: 0 10px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+#about{
+  background-image: url(image/sephora.jpg);
+  padding: 70px 0;
+  font-family: 'Josefin Sans', sans-serif;
+  color: black;
+}
+#about h1{
+  font-size: 60px;
+ text-align: center;
+}
+
+#products{
+  background-color: white;
+  color: black;
+  text-align: center;
+  margin-top: 130px;
+  padding: 50px;
+}
+#products h2{
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.card{
+  margin: 20px;
+}
+
+.image{
+  height: 320px;
+  width: 320px;
+  margin: 20px;
+  margin-left: 560px;
+}
+
+#contact{
+  background-color: black;
+  color: white;
+  text-align: center;
+  margin-top: 50px;
+  padding: 50px;
+}
+
+#contact h2{
+  font-size: 40px;
+  font-family: 'Josefin Sans', sans-serif;
+  text-align: center;
+}
+
+.image2{
+  height: 100px;
+  width: 100px;
+  margin: 20px;
+}
+
+footer{
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 40px;
+}
